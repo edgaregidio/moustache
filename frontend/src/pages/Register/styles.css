@@ -1,0 +1,73 @@
+.register-container {
+  width: 100%;
+  max-height: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.register-container section.form {
+  width: 100%;
+  max-width: 485px;
+  height: 600px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.register-container section.form form {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.register-container section.form h1 {
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.register-container section.form img {
+  width: 250px;
+  height: 150px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.register-container section.form a {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.register-container section.form div.input input{
+  width: 230px;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.register-container section.form .button {
+  margin-top: 0;
+}
+
+.register-container section.form .bottom-group {
+  display: flex;
+  margin: 45px;
+  justify-content: center;
+}
+
+.register-container section.form .bottom-group .returnUser {
+  color: #FFB800;
+  margin: 0;
+  margin-left: 8px;
+}
+
+
+

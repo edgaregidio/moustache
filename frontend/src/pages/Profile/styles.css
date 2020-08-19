@@ -1,0 +1,168 @@
+.profile-container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: #201E1B;
+}
+
+.profile-section {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.header-section {
+  display: flex;
+  width: 100%;
+  max-height: 1120px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-section .row-one{
+  display:flex;
+  align-items: center;
+  width: 70%;
+}
+
+.header-section .row-one img {
+  width: 250px;
+  height: 150px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+.header-section .row-one h1 {
+  color: #fff;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+.header-section .button-logout {
+  display: flex;
+  width: 120px;
+  height: 40px;
+  border: 1px solid #FFB800;
+  border-radius: 10px;
+  cursor: pointer;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.header-section .button-logout .btnSair {
+  background: transparent;
+  color: #fff;
+  border: 0;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+
+.profile-section .search-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-section .search-container h1{
+  color: #999999;
+  font-weight: 400;
+}
+
+.profile-section .search-container .input-search{
+  display: flex;
+  width: 250px;
+  height: 30px;
+  background: #343434;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.profile-section .search-container .input-search input {
+  background: transparent;
+  color: #999999;
+  font-size: 14px;
+  padding: 5px;
+  height: 30px;
+  border: 0;
+}
+
+.profile-section .list-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  padding: 15px 50px;
+}
+.profile-section .list-container .card{
+  padding: 20px;
+  border-radius: 15px;
+  background: #343434;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-section .list-container .card-header {
+  display: flex;
+}
+
+.profile-section .list-container .card-header .avatar {
+  background: #FFB800;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile-section .list-container .card-header ul {
+  list-style: none;
+  margin: 0 25px;
+}
+.profile-section .list-container .card-header ul li strong {
+  color: #FFB800;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.profile-section .list-container .card-header ul li h1 {
+  color: #999999;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.profile-section .list-container .card-header ul li h2 {
+  color: #999999;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.profile-section .list-container .card-bottom {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: #999999;
+  font-weight: 400;
+}
+
+.profile-section .list-container .diary-bottom{
+  display: flex;
+  width: 140px;
+  height: 35px;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  cursor: pointer;
+
+}
+
+.profile-section .list-container .diary-bottom h2 {
+  color: #FFB800;
+  font-weight: 400;
+}
